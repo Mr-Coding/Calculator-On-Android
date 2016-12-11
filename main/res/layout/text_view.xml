@@ -6,25 +6,25 @@
     android:gravity="center"
     android:background="@drawable/text_view">
 
-    <View.Text_View
+    <com.calculator.ching.calculator.View.Text_View
+        android:id="@+id/expressions_view"
         android:layout_marginRight="5dp"
         android:layout_marginLeft="5dp"
         android:layout_width="match_parent"
         android:layout_height="38dp"
-        android:text="500+20"
         android:textSize="20dp"
         android:padding="5dp"
         android:gravity="center_vertical|right">
-    </View.Text_View>
-    <View.Text_View
+    </com.calculator.ching.calculator.View.Text_View>
+    <com.calculator.ching.calculator.View.Text_View
+        android:id="@+id/result_view"
         android:layout_marginRight="5dp"
         android:layout_marginLeft="5dp"
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:text="520"
         android:textSize="30dp"
         android:padding="5dp"
         android:gravity="center_vertical|right">
-    </View.Text_View>
+    </com.calculator.ching.calculator.View.Text_View>
 
 </LinearLayout>

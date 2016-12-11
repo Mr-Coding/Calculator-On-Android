@@ -30,7 +30,8 @@
            android:orientation="horizontal"
            android:gravity="center">
            <Button
-               android:text="("
+               android:id="@+id/left_bracket_but"
+               android:text="@string/left_bracket"
                android:textColor="#fff"
                android:textSize="20dp"
                android:layout_margin="2.5dp"
@@ -38,23 +39,28 @@
                android:layout_width="65dp"
                android:layout_height="61dp" />
            <Button
-               android:text=")"
+               android:id="@+id/right_bracket_but"
+               android:text="@string/right_bracket"
                android:textColor="#fff"
                android:textSize="20dp"
                android:layout_margin="2.5dp"
                android:background="@drawable/selector_other_but"
                android:layout_width="65dp"
                android:layout_height="61dp" />
+
            <Button
-               android:text="/"
+               android:id="@+id/divide_but"
+               android:text="@string/divide"
                android:textColor="#fff"
                android:textSize="20dp"
                android:layout_margin="2.5dp"
                android:background="@drawable/selector_other_but"
                android:layout_width="65dp"
                android:layout_height="61dp" />
+
            <Button
-               android:text="*"
+               android:id="@+id/multiply_but"
+               android:text="@string/multiply"
                android:textColor="#fff"
                android:textSize="20dp"
                android:layout_margin="2.5dp"
@@ -69,28 +75,32 @@
             android:orientation="horizontal"
             android:gravity="center">
             <Button
+                android:id="@+id/seven_but"
                 android:layout_margin="2.5dp"
-                android:text="7"
+                android:text="@string/seven"
                 android:textSize="20dp"
                 android:background="@drawable/selector_number_but"
                 android:layout_width="65dp"
                 android:layout_height="61dp" />
             <Button
+                android:id="@+id/eight_but"
                 android:layout_margin="2.5dp"
-                android:text="8"
+                android:text="@string/eight"
                 android:textSize="20dp"
                 android:background="@drawable/selector_number_but"
                 android:layout_width="65dp"
                 android:layout_height="61dp" />
             <Button
+                android:id="@+id/nine_but"
                 android:layout_margin="2.5dp"
-                android:text="9"
+                android:text="@string/nine"
                 android:textSize="20dp"
                 android:background="@drawable/selector_number_but"
                 android:layout_width="65dp"
                 android:layout_height="61dp" />
             <Button
-                android:text="-"
+                android:id="@+id/subtract_but"
+                android:text="@string/subtract"
                 android:textColor="#fff"
                 android:textSize="20dp"
                 android:layout_margin="2.5dp"
@@ -105,28 +115,32 @@
             android:orientation="horizontal"
             android:gravity="center">
             <Button
+                android:id="@+id/four_but"
                 android:layout_margin="2.5dp"
-                android:text="4"
+                android:text="@string/four"
                 android:textSize="20dp"
                 android:background="@drawable/selector_number_but"
                 android:layout_width="65dp"
                 android:layout_height="61dp" />
             <Button
+                android:id="@+id/five_but"
                 android:layout_margin="2.5dp"
-                android:text="5"
+                android:text="@string/five"
                 android:textSize="20dp"
                 android:background="@drawable/selector_number_but"
                 android:layout_width="65dp"
                 android:layout_height="61dp" />
             <Button
+                android:id="@+id/six_but"
                 android:layout_margin="2.5dp"
-                android:text="6"
+                android:text="@string/six"
                 android:textSize="20dp"
                 android:background="@drawable/selector_number_but"
                 android:layout_width="65dp"
                 android:layout_height="61dp" />
             <Button
-                android:text="+"
+                android:id="@+id/plus_but"
+                android:text="@string/plus"
                 android:textColor="#fff"
                 android:textSize="20dp"
                 android:layout_margin="2.5dp"
@@ -151,22 +165,25 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
                     <Button
+                        android:id="@+id/one_but"
                         android:layout_margin="2.5dp"
-                        android:text="1"
+                        android:text="@string/one"
                         android:textSize="20dp"
                         android:background="@drawable/selector_number_but"
                         android:layout_width="65dp"
                         android:layout_height="61dp" />
                     <Button
+                        android:id="@+id/two_but"
                         android:layout_margin="2.5dp"
-                        android:text="2"
+                        android:text="@string/two"
                         android:textSize="20dp"
                         android:background="@drawable/selector_number_but"
                         android:layout_width="65dp"
                         android:layout_height="61dp" />
                     <Button
+                        android:id="@+id/three_but"
                         android:layout_margin="2.5dp"
-                        android:text="3"
+                        android:text="@string/three"
                         android:textSize="20dp"
                         android:background="@drawable/selector_number_but"
                         android:layout_width="65dp"
@@ -175,22 +192,26 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
                     <Button
+                        android:id="@+id/delete_but"
                         android:layout_margin="2.5dp"
                         android:background="@drawable/selector_delete_but"
                         android:layout_width="65dp"
                         android:layout_height="61dp" />
                     <Button
+                        android:id="@+id/zero_but"
                         android:layout_margin="2.5dp"
-                        android:text="0"
+                        android:text="@string/zero"
                         android:textSize="20dp"
                         android:background="@drawable/selector_number_but"
                         android:layout_width="65dp"
                         android:layout_height="61dp" />
                     <Button
+                        android:id="@+id/point_but"
                         android:layout_margin="2.5dp"
-                        android:text="."
+                        android:text="@string/point"
                         android:textSize="20dp"
                         android:background="@drawable/selector_number_but"
                         android:layout_width="65dp"
@@ -200,10 +221,11 @@
             </LinearLayout>
 
             <Button
+                android:id="@+id/equal_but"
                 android:layout_margin="2.5dp"
                 android:layout_width="65dp"
                 android:layout_height="127dp"
-                android:text="="
+                android:text="@string/equal"
                 android:textColor="#fff"
                 android:textSize="30dp"
                 android:background="@drawable/selector_equal_but"/>
