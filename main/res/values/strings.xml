@@ -16,6 +16,9 @@
     <string name="left_bracket">(</string>
     <string name="right_bracket">)</string>
 
+    <string name="bracket">( )</string>
+    <string name="minus_sign">±</string>
+
     <string name="plus">+</string>
     <string name="subtract">-</string>
     <string name="multiply">*</string>
